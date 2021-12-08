@@ -793,8 +793,8 @@ ul.services {
         color: black;
         font-size: 23px;
     }
-.test-content{
-  font-size: 25px !important;
+p.test-content{
+  font-size: 30px !important;
   line-height: 45px !important;
 }
   
