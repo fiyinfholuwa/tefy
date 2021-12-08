@@ -8256,7 +8256,9 @@ a {
     .footer a:hover{
         color: #652D90;
     }
-
+.social-links{
+  text-align: center;
+}
     /*End of footer section */
 
 /*Article Page starts here*/
@@ -8277,3 +8279,13 @@ a {
   background: #652D90;
 }
 
+
+
+@media (max-width: 768px){
+  .overlay .closebtn {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 60px;
+}
+}
