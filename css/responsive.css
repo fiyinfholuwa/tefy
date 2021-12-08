@@ -355,24 +355,18 @@ padding-top: -100px;
 }
 
 
-
-
-@media (max-width: 768px){
+@media(max-width: 768px){
   p.test-content{
   font-size: 15px !important;
   line-height: 20px !important;
 }
-
-
-.btn-digi{
-    
-    display: none;
 }
 
-.btn-digi-down{
-    
-    
-}
+@media (max-width: 768px){
+
+  
+
+
 
 #talk-digi{
   margin-left: -2px;
