@@ -193,7 +193,6 @@
     
     width: 100%;
    }
-
    .carousel-item{
     margin-top: 40px;
    }
@@ -299,21 +298,7 @@ padding-top: -100px;
 
                 /*Contact us page starts here*/
 
-   .intro {
-    font-size: 20px;
-    margin-top: 20px;
-    color: white;
-}
-
-.boxes{
-    border: 1px solid silver; /*dotted, dashed,solid, double,groove,ridge,inset,outset,hidden*/
-    border-radius: 10px;
-    height: 200px;
-    color: white;
-    padding: 10px;
-    width: 90%;
-    margin: 20px 5%;
-}
+   
 
 
 /*About us*/
@@ -373,7 +358,11 @@ padding-top: -100px;
 
 
 @media (max-width: 768px){
-  
+  p.test-content{
+  font-size: 15px !important;
+  line-height: 20px !important;
+}
+
 
 .btn-digi{
     
@@ -385,6 +374,10 @@ padding-top: -100px;
     
 }
 
+#talk-digi{
+  margin-left: -2px;
+  font-size: 13px;
+}
 .btn-outline-digi{
     color: rgb(255, 217, 83);
     background-color: transparent;
@@ -435,10 +428,7 @@ padding-top: -100px;
 }
 
 
-#talk{
-    margin-left: 0px;
-    font-size: 13px;
-}
+
 .backgrd2{
     background-color:grey; /*#652d90;*/ /*#17a2b8;*/
     clip-path: polygon(0 0, 100% 1%, 100% 100%, 0 100%);   /*0 90%*/
@@ -566,6 +556,11 @@ margin-left: -10px;
 
 }
 
+.intouch h1{
+    font-size: 25px !important;
+
+}
+
 @keyframes mymove2 {
   from {background-color: rgb(255,255,255);}
   to {background-color: rgba(128,128,128, 0.5)};
@@ -667,7 +662,10 @@ margin-left: -10px;
     margin-left: -55px;
 }
 
-
+#talk{
+  margin-left: -2px;
+  font-size: 13px;
+}
 
 .background2{
     
@@ -732,6 +730,7 @@ margin-left: -10px;
 
 .headcc{
   margin-top: -400px;
+  padding-left: 28px;
 }
 
 #gif8{
@@ -777,8 +776,142 @@ margin-left: -10px;
 .sub{
   height: 300px;
 }
+
+/*contact us*/
+
+.intro {
+    font-size: 20px !important;
+    margin-top: 20px;
+    color: white;
+}
+
+.boxes{
+    border: 1px solid silver; /*dotted, dashed,solid, double,groove,ridge,inset,outset,hidden*/
+    border-radius: 10px;
+    height: 230px;
+    color: white;
+    padding: 10px;
+    width: 90%;
+    margin: 20px 5%;
+}
+
+/*Cta*/
+
+.btn-cta{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 80%;
+  margin-left: 10px;
+  transition: ease all .4s;
 }
 
 
+.btn-cta2{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 80%;
+  margin-left: 25px;
+  transition: ease all .4s;
+  margin-bottom: 30px;
+}
+
+
+
+
+.btn-cta4{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 80%;
+  margin-left: 10px;
+  transition: ease all .4s;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+
+
+.btn-cta3{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 80%;
+  margin-left: 10px;
+  transition: ease all .4s;
+  margin-bottom: 30px;
+}
+
+
+}
+
+
+
+@media (min-width: 768px){
+  
+   .intro {
+    font-size: 30px !important;
+    margin-top: 20px;
+    color: white;
+}
+
+.boxes{
+    border: 1px solid silver; /*dotted, dashed,solid, double,groove,ridge,inset,outset,hidden*/
+    border-radius: 10px;
+    height: 300px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin: 20px 5%;
+}
+
+.services2 img{
+  /*width: 100% !important;*/
+}
+
+.gif5 , .gif6, .gif7{
+  width: 100% !important;
+  width: 300px;
+  float: left;
+}
+
+.btn-cta4{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 40%;
+  margin-left: 10px;
+  transition: ease all .4s;
+  margin-bottom: 100px;
+  margin-top: 30px;
+}
+
+
+
+.btn-cta3{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 40%;
+  margin-left: 10px;
+  transition: ease all .4s;
+  margin-bottom: 30px;
+}
+
+.btn-cta{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 40%;
+  margin-left: 10px;
+  transition: ease all .4s;
+}
+
+
+.btn-cta2{
+  border:white 2px solid;
+  font-size: 40px !important;
+  width: 40%;
+  margin-left: 25px;
+  transition: ease all .4s;
+  margin-bottom: 30px;
+}
+
+
+}
 
 
