@@ -715,7 +715,7 @@ margin-left: -10px;
   margin-top: -150px;
 }
 .head-cs{
-  margin-top: -120px;
+  margin-top: -400px;
 }
 
 .headms{
@@ -723,7 +723,7 @@ margin-left: -10px;
 }
 
 .headcc{
-  margin-top: -400px;
+  margin-top: -400px !important;
   padding-left: 28px;
 }
 
@@ -815,8 +815,8 @@ margin-left: -10px;
 .btn-cta4{
   border:white 2px solid;
   font-size: 40px !important;
-  width: 80%;
-  margin-left: 10px;
+  width: 90%;
+  margin-left: 10px !important;
   transition: ease all .4s;
   margin-bottom: 100px;
   margin-top: 30px;
@@ -828,7 +828,7 @@ margin-left: -10px;
   border:white 2px solid;
   font-size: 40px !important;
   width: 80%;
-  margin-left: 10px;
+  margin-left: 10px !important;
   transition: ease all .4s;
   margin-bottom: 30px;
 }
@@ -905,6 +905,7 @@ margin-left: -10px;
   margin-bottom: 30px;
 }
 
+.head
 
 }
 
