@@ -458,7 +458,7 @@ button {
 #animation_after_hero .content-animate a:before{
     transition: 2s ease-out;
     content: "";
-    animation: animateTextButton 20s ease infinite;
+    /*animation: animateTextButton 20s ease infinite;*/
 
 }
 
@@ -491,14 +491,14 @@ button {
     
     
     transition: 2s ease-out;
-    content: "We Deliver cutting edge services";
+    content: "";
     animation: animateText 20s ease infinite;
 
 }
 
 @keyframes animateText {
     0%, 100%{
-        content: "We Deliver cutting edge services";
+        content: "We build for the future";
         transition: 2s ease-out;
     }
 
@@ -513,7 +513,12 @@ button {
     }
 
     75%{
-        content: "Lets expand your mind";
+        content: "We deliver cutting edge services";
+        transition: 2s ease-out;
+    } 
+
+    100%{
+        content: "We are visionaries";
         transition: 2s ease-out;
     }   
 }
@@ -1410,7 +1415,7 @@ div.boxes:hover{
   border:white 2px solid;
   font-size: 40px !important;
   width: 40%;
-  margin-left: 75px;
+  margin-left: 75px !important;
   transition: ease all .4s;
 }
 
@@ -1433,7 +1438,7 @@ div.boxes:hover{
   border:white 2px solid;
   font-size: 40px !important;
   width: 40%;
-  margin-left: 50px;
+  margin-left: 50px !important;
   transition: ease all .4s;
   margin-bottom: 30px;
 }
